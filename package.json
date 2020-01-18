@@ -1,0 +1,23 @@
+{
+  "name": "snow-pro",
+  "version": "1.0.0",
+  "description": "A snow prediction app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devisscher/snow-pro.git"
+  },
+  "author": "Thomas Devisscher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devisscher/snow-pro/issues"
+  },
+  "homepage": "https://github.com/devisscher/snow-pro#readme",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
