@@ -1,0 +1,18 @@
+type Currently {
+  time: String,
+  summary: String,
+  icon: String,
+  nearestStormDistance: String,
+  nearestStormBearing: String
+}
+
+type Weather {
+  latitude: String!
+  longitude: String!
+  timezone: String!
+  currently: Currently!
+}
+
+type Query {
+  weather: Weather!
+}
