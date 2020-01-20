@@ -20,4 +20,4 @@ const httpServer = createServer(app);
 const port = 8084;
 httpServer.listen(
     { port },
-    (): void => console.log(`\n🚀      GraphQL is now running on http://localhost:3000/${port}`));
+    (): void => console.log(`\n🚀      GraphQL is now running on http://localhost:${port}`));
